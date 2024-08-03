@@ -20,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Fade top distance="10%" duration={1500}>
       <nav>
         <div className="relative inline-block text-center text-black" id="logo">
           <a href="index.html">
@@ -32,7 +33,6 @@ function App() {
           <div className="linediv"></div>
         </div>
       </nav>
-      <Fade top distance="10%" duration={1500}>
         <div>
           <p className="main-heading">
             <span>hi </span>
