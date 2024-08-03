@@ -9,11 +9,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
 
 function App() {
-  const { text } = useTypewriter({
-    words: ["full stack developer", "uiux designer"],
+  const [ text ] = useTypewriter({
+    words: ["fullstack developer", "uiux designer"],
     loop: {},
-    typeSpeed: 120,
-    deleteSpeed: 80,
+    typeSpeed: 130,
+    deleteSpeed: 90,
   });
 
   return (
@@ -50,7 +50,7 @@ function App() {
       </div>
       <div>
         <p className="main-heading-4">
-          a {""}
+          a {''}
           <span>{text}</span>
           <span>
             <Cursor cursorStyle="|" />
