@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import logo from "./assets/logoedit.svg";
 import image1 from "./assets/image1.png";
@@ -6,16 +5,23 @@ import image2 from "./assets/image2.png";
 import linkdin from "./assets/linkdin.svg";
 import twitter from "./assets/twitter.svg";
 import github from "./assets/github.svg";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import React from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const { text } = useTypewriter({
+    words: ["full stack developer", "uiux designer"],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  });
 
   return (
     <>
       <nav>
         <div className="relative inline-block text-center text-black" id="logo">
           <a href="index.html">
-            <img src={logo} alt="" srcset="" />
+            <img src={logo} alt="5" />
           </a>
         </div>
         <div className="scroll-div">
@@ -43,7 +49,13 @@ function App() {
         </p>
       </div>
       <div>
-        <p className="main-heading-4">a full stack developer</p>
+        <p className="main-heading-4">
+          a {""}
+          <span>{text}</span>
+          <span>
+            <Cursor cursorStyle="|" />
+          </span>
+        </p>
       </div>
 
       <div className="text-center">
@@ -53,7 +65,7 @@ function App() {
         <p className="project-text">my projects</p>
         <div className="inner-container ">
           <a href="https://randomemailidgenerator.netlify.app/">
-            <img src={image1} alt="" />
+            <img src={image1} alt="hello" />
             <div className="card-text">
               <p>random email id</p>
               <p>generator</p>
@@ -63,7 +75,7 @@ function App() {
         </div>
         <div className="inner-container ">
           <a href="https://abhiraj05.github.io/simple_calculator/">
-            <img src={image2} alt="" />
+            <img src={image2} alt="hello" />
             <div className="card-text">
               <p>simple</p>
               <p>calculator</p>
@@ -88,7 +100,7 @@ function App() {
               type="text"
               placeholder="your name"
             />
-          </div>{" "}
+          </div>
           <div>
             <input
               className="w-56 h-20 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
@@ -103,13 +115,13 @@ function App() {
         <p className="contact-text">connect me</p>
         <div className="social-logos">
           <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217">
-            <img src={linkdin} alt="" />
+            <img src={linkdin} alt="1" />
           </a>
           <a href="https://github.com/Abhiraj05">
-            <img src={github} alt="" />
+            <img src={github} alt="2" />
           </a>
           <a href="https://x.com/abhiraj_eth">
-            <img src={twitter} alt="" />
+            <img src={twitter} alt="2" />
           </a>
         </div>
         <p className="abhiraj-ftr">made with &#9829; by abhiraj</p>
