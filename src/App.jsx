@@ -9,6 +9,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
 import Fade  from "react-reveal/Fade";
 
+
 function App() {
   const [text] = useTypewriter({
     words: ["fullstack developer", "uiux designer"],
@@ -59,7 +60,6 @@ function App() {
             </span>
           </p>
         </div>
-
         <div className="text-center">
           <button className="resume-btn">resume</button>
         </div>
@@ -113,7 +113,6 @@ function App() {
             <button className="submit-btn">submit</button>
           </form>
         </div>
-      </Fade>
         <footer className="ftr">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
@@ -129,6 +128,8 @@ function App() {
           </div>
           <p className="abhiraj-ftr">made with &#9829; by abhiraj</p>
         </footer>
+      </Fade>
+
     </>
   );
 }
