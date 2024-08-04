@@ -2,9 +2,9 @@ import "./App.css";
 import logo from "./assets/logoedit.svg";
 import image1 from "./assets/image1.png";
 import image2 from "./assets/image2.png";
-import linkdin from "./assets/linkdin.svg";
+import linkdin from "./assets/linkdinedit.svg";
 import twitter from "./assets/twitter.svg";
-import github from "./assets/github.svg";
+import github from "./assets/githubedit.svg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
 import Fade from "react-reveal/Fade";
@@ -26,6 +26,14 @@ function App() {
           >
             <a href="index.html">
               <img src={logo} className="hover:opacity-50"  alt="logo" />
+            </a>
+          </div>
+          <div className="logos">
+          <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217" className="hover:opacity-70">
+              <img src={linkdin} alt="1" />
+            </a>
+            <a href="https://github.com/Abhiraj05" className="hover:opacity-70">
+              <img src={github} alt="2" />
             </a>
           </div>
         </nav>
@@ -119,7 +127,7 @@ function App() {
               <img src={github} alt="2" />
             </a>
             <a href="https://x.com/abhiraj_eth" className="hover:opacity-70">
-              <img src={twitter} alt="2" />
+              <img src={twitter} alt="twitter" />
             </a>
           </div>
           <p className="abhiraj-ftr">made with &#9829; by abhiraj</p>

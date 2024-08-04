@@ -11,8 +11,10 @@ body {
 nav {
   padding-top: 22px;
   margin-bottom: 22px;
-  padding-left: 31px;
-  gap: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
   padding-bottom: 22px;
   border-bottom: 0.5px solid aliceblue;
 }
@@ -25,6 +27,13 @@ nav {
   font-weight: 900;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .linediv {
