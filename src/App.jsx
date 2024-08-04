@@ -7,8 +7,7 @@ import twitter from "./assets/twitter.svg";
 import github from "./assets/github.svg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
-import Fade  from "react-reveal/Fade";
-
+import Fade from "react-reveal/Fade";
 
 function App() {
   const [text] = useTypewriter({
@@ -21,18 +20,21 @@ function App() {
   return (
     <>
       <Fade top distance="10%" duration={1500}>
-      <nav>
-        <div className="relative inline-block text-center text-black" id="logo">
-          <a href="index.html">
-            <img src={logo} alt="5" />
-          </a>
-        </div>
-        <div className="scroll-div">
-          <div className="linediv"></div>
-          <div className="linediv"></div>
-          <div className="linediv"></div>
-        </div>
-      </nav>
+        <nav>
+          <div
+            className="relative inline-block text-center text-black"
+            id="logo"
+          >
+            <a href="index.html">
+              <img src={logo} alt="5" />
+            </a>
+          </div>
+          <div className="scroll-div">
+            <div className="linediv"></div>
+            <div className="linediv"></div>
+            <div className="linediv"></div>
+          </div>
+        </nav>
         <div>
           <p className="main-heading">
             <span>hi </span>
@@ -129,7 +131,6 @@ function App() {
           <p className="abhiraj-ftr">made with &#9829; by abhiraj</p>
         </footer>
       </Fade>
-
     </>
   );
 }
