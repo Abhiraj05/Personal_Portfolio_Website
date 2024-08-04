@@ -25,14 +25,9 @@ function App() {
             id="logo"
           >
             <a href="index.html">
-              <img src={logo} alt="5" />
+              <img src={logo} className="hover:opacity-50"  alt="logo" />
             </a>
           </div>
-          {/* <div className="scroll-div">
-            <div className="linediv"></div>
-            <div className="linediv"></div>
-            <div className="linediv"></div>
-          </div> */}
         </nav>
         <div>
           <p className="main-heading">
@@ -62,7 +57,7 @@ function App() {
           </p>
         </div>
         <div className="text-center">
-          <button className="resume-btn">resume</button>
+          <button className="resume-btn" >resume</button>
         </div>
         <div className="outer-container">
           <p className="project-text">my projects</p>
@@ -117,13 +112,13 @@ function App() {
         <footer className="ftr">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
-            <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217">
+            <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217" className="hover:opacity-70">
               <img src={linkdin} alt="1" />
             </a>
-            <a href="https://github.com/Abhiraj05">
+            <a href="https://github.com/Abhiraj05" className="hover:opacity-70">
               <img src={github} alt="2" />
             </a>
-            <a href="https://x.com/abhiraj_eth">
+            <a href="https://x.com/abhiraj_eth" className="hover:opacity-70">
               <img src={twitter} alt="2" />
             </a>
           </div>
