@@ -11,12 +11,10 @@ body {
 nav {
   padding-top: 22px;
   margin-bottom: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 31px;
   gap: 215px;
   padding-bottom: 22px;
-  border-bottom: 1px solid aliceblue;
+  border-bottom: 0.5px solid aliceblue;
 }
 
 #logo {
@@ -26,7 +24,6 @@ nav {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 900;
   font-style: normal;
-  /* height: 50px; */
   text-transform: uppercase;
 }
 

@@ -22,18 +22,17 @@ function App() {
       <Fade top distance="10%" duration={1500}>
         <nav>
           <div
-            className="relative inline-block text-center text-black"
             id="logo"
           >
             <a href="index.html">
               <img src={logo} alt="5" />
             </a>
           </div>
-          <div className="scroll-div">
+          {/* <div className="scroll-div">
             <div className="linediv"></div>
             <div className="linediv"></div>
             <div className="linediv"></div>
-          </div>
+          </div> */}
         </nav>
         <div>
           <p className="main-heading">
