@@ -5,6 +5,9 @@ import image2 from "./assets/image2.png";
 import linkdin from "./assets/linkdinedit.svg";
 import twitter from "./assets/twitter.svg";
 import github from "./assets/githubedit.svg";
+import facebook from "./assets/facebook.svg";
+import instagram from "./assets/instagram.svg";
+
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
 import Fade from "react-reveal/Fade";
@@ -120,11 +123,11 @@ function App() {
         <footer className="ftr">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
-            <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217" className="hover:opacity-70">
-              <img src={linkdin} alt="1" />
+            <a href="https:/www.facebook.com/abhirajshilkar" className="hover:opacity-70">
+              <img src={facebook} alt="1" />
             </a>
-            <a href="https://github.com/Abhiraj05" className="hover:opacity-70">
-              <img src={github} alt="2" />
+            <a href="https://www.instagram.com/shilkarabhiraj" className="hover:opacity-70">
+              <img src={instagram} alt="2" />
             </a>
             <a href="https://x.com/abhiraj_eth" className="hover:opacity-70">
               <img src={twitter} alt="twitter" />
