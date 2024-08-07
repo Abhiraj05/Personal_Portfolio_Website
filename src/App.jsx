@@ -24,15 +24,16 @@ function App() {
     <>
       <Fade top distance="10%" duration={1500}>
         <nav>
-          <div
-            id="logo"
-          >
+          <div id="logo">
             <a href="index.html">
-              <img src={logo} className="hover:opacity-50"  alt="logo" />
+              <img src={logo} className="hover:opacity-50" alt="logo" />
             </a>
           </div>
           <div className="logos">
-          <a href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217" className="hover:opacity-70">
+            <a
+              href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217"
+              className="hover:opacity-70"
+            >
               <img src={linkdin} alt="1" />
             </a>
             <a href="https://github.com/Abhiraj05" className="hover:opacity-70">
@@ -68,7 +69,7 @@ function App() {
           </p>
         </div>
         <div className="text-center">
-          <button className="resume-btn" >resume</button>
+          <button className="resume-btn">resume</button>
         </div>
         <div className="outer-container">
           <p className="project-text">my projects</p>
@@ -123,10 +124,16 @@ function App() {
         <footer className="ftr">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
-            <a href="https:/www.facebook.com/abhirajshilkar" className="hover:opacity-70">
+            <a
+              href="https:/www.facebook.com/abhirajshilkar"
+              className="hover:opacity-70"
+            >
               <img src={facebook} alt="1" />
             </a>
-            <a href="https://www.instagram.com/shilkarabhiraj" className="hover:opacity-70">
+            <a
+              href="https://www.instagram.com/shilkarabhiraj"
+              className="hover:opacity-70"
+            >
               <img src={instagram} alt="2" />
             </a>
             <a href="https://x.com/abhiraj_eth" className="hover:opacity-70">
