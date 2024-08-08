@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./assets/logoedit.svg";
+import logo from "./assets/logoedited.svg";
 import image1 from "./assets/image1.png";
 import image2 from "./assets/image2.png";
 import linkdin from "./assets/linkdinedit.svg";
@@ -44,7 +44,8 @@ function App() {
         <div>
           <p className="main-heading">
             <span>hi </span>
-            <span style={{ color: " #69B0E3" }}>there,</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-white">there,</span>
+
           </p>
         </div>
         <div>
@@ -54,24 +55,25 @@ function App() {
           </p>
         </div>
         <div>
-          <p className="main-heading-3">
-            <span style={{ color: " #69B0E3" }}>@</span>
+          <p className="main-heading-3 ">
+            <span className="text-blue-400">@</span>
+
             <span>bhiraj shilkar</span>
           </p>
         </div>
         <div>
-          <p className="main-heading-4">
+          <p className="main-heading-4 text-blue-400">
             a {""}
-            <span>{text}</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-500 to-white">{text}</span>
             <span>
               <Cursor cursorStyle="|" />
             </span>
           </p>
         </div>
         <div className="text-center">
-          <button className="resume-btn">resume</button>
+          <button className="resume-btn bg-blue-400">resume</button>
         </div>
-        <div className="outer-container">
+        <div className="outer-container  bg-blue-400">
           <p className="project-text">my projects</p>
           <div className="inner-container ">
             <a href="https://randomemailidgenerator.netlify.app/">
@@ -94,7 +96,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="outer-container">
+        <div className="outer-container  bg-blue-400">
           <p className="project-text">contact me</p>
           <form className="text-center">
             <div>
@@ -118,10 +120,10 @@ function App() {
                 placeholder="your message"
               />
             </div>
-            <button className="submit-btn">submit</button>
+            <button className="submit-btn text-blue-400">submit</button>
           </form>
         </div>
-        <footer className="ftr">
+        <footer className="ftr bg-blue-400">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
             <a
