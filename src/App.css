@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
   margin: 0;
   line-height: normal;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav {
   text-transform: uppercase;
 }
 
-.logos{
+.logos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ nav {
 }
 
 .linediv {
-  background-color: #69B0E3;
+  background-color: #69b0e3;
   width: 27px;
   height: 2px;
   box-sizing: border-box;
@@ -56,7 +56,7 @@ nav {
   margin-left: 31px;
   font-weight: 900;
   font-style: normal;
-  color:aliceblue;
+  color: aliceblue;
 }
 
 .main-heading-2 {
@@ -84,24 +84,23 @@ nav {
   font-style: normal;
 }
 .main-heading-4 {
-  font-size: 22px;
+  font-size: 23px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   display: inline-block;
   font-family: "Ubuntu Mono", monospace;
   text-align: left;
-  margin-top: 18px;
+  margin-top: 15px;
   margin-left: 31px;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .resume-btn {
   text-transform: uppercase;
-  color:aliceblue;
+  color: aliceblue;
   letter-spacing: 0.14em;
-  font-size: 14px;
+  font-size: 15px;
   width: 117px;
   height: 44px;
   margin-top: 60px;
@@ -112,9 +111,9 @@ nav {
   border-radius: 6px;
 }
 
-.submit-btn{
+.submit-btn {
   text-transform: uppercase;
-  background-color:aliceblue;
+  background-color: aliceblue;
   letter-spacing: 0.14em;
   font-size: 13px;
   width: 95px;
@@ -126,9 +125,6 @@ nav {
   font-weight: 700;
   border-radius: 6px;
 }
-
-
-
 
 .outer-container {
   margin-top: 70px;
@@ -164,11 +160,11 @@ nav {
   margin-bottom: 24px;
 }
 
-.card-text{
+.card-text {
   font-size: 14px;
   font-family: "Ubuntu Mono", monospace;
   text-transform: uppercase;
-  color:#828C8F;
+  color: #828c8f;
   margin-top: 8px;
   margin-left: 5px;
   font-weight: 700;
@@ -177,15 +173,15 @@ nav {
   letter-spacing: 0.14em;
 }
 
-.ftr{
+.ftr {
   margin-top: 84px;
 }
 
-.contact-text{
+.contact-text {
   font-size: 18px;
   padding-top: 40px;
   padding-left: 44px;
-  color:  aliceblue;
+  color: aliceblue;
   font-family: "Strait", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -193,15 +189,15 @@ nav {
   text-transform: uppercase;
 }
 
-.social-logos{
+.social-logos {
   margin-top: 12px;
   margin-left: 47px;
   display: flex;
-  justify-content:left;
+  justify-content: left;
   gap: 24px;
 }
 
-.abhiraj-ftr{
+.abhiraj-ftr {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -212,4 +208,3 @@ nav {
   padding-bottom: 21px;
   text-transform: capitalize;
 }
-

@@ -71,9 +71,9 @@ function App() {
           </p>
         </div>
         <div className="text-center">
-          <button className="resume-btn bg-blue-400">resume</button>
+          <button className="resume-btn bg-gradient-to-t from-blue-500 to-slate-300 shadow-blue-400 ">resume</button>
         </div>
-        <div className="outer-container  bg-blue-400">
+        <div className="outer-container   bg-blue-400">
           <p className="project-text">my projects</p>
           <div className="inner-container ">
             <a href="https://randomemailidgenerator.netlify.app/">
@@ -123,7 +123,7 @@ function App() {
             <button className="submit-btn text-blue-400">submit</button>
           </form>
         </div>
-        <footer className="ftr bg-blue-400">
+        <footer className="ftr  bg-blue-400">
           <p className="contact-text">connect me</p>
           <div className="social-logos">
             <a
