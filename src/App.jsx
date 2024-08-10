@@ -101,21 +101,21 @@ function App() {
           <form className="text-center">
             <div>
               <input
-                className="w-56 h-9 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400"
+                className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400"
                 type="text"
                 placeholder="name@gmail.com"
               />
             </div>
             <div>
               <input
-                className="w-56 h-9 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
+                className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
                 type="text"
                 placeholder="your name"
               />
             </div>
             <div>
               <input
-                className="w-56 h-20 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
+                className="w-64 h-20 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
                 type="text"
                 placeholder="your message"
               />
