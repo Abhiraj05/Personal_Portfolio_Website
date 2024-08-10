@@ -8,6 +8,12 @@ body {
   background-color: #1e1e1e;
 }
 
+.nav-fixed{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+}
 nav {
   padding-top: 22px;
   margin-bottom: 22px;
@@ -17,6 +23,8 @@ nav {
   gap: 200px;
   padding-bottom: 22px;
   border-bottom: 0.5px solid aliceblue;
+  background-color: #1e1e1e;
+  
 }
 
 #logo {
@@ -132,6 +140,7 @@ nav {
   margin-right: 24px;
   border-radius: 20px;
   padding-bottom: 58px;
+  background-color: #61A5FA;
 }
 
 .inner-container {

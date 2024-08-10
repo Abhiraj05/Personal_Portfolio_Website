@@ -23,6 +23,7 @@ function App() {
   return (
     <>
       <Fade top distance="10%" duration={1500}>
+        <div className="nav-fixed">
         <nav>
           <div id="logo">
             <a href="index.html">
@@ -41,8 +42,9 @@ function App() {
             </a>
           </div>
         </nav>
+        </div>
         <div>
-          <p className="main-heading">
+          <p className="main-heading mt-28">
             <span>hi </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-white">there,</span>
 
@@ -96,7 +98,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="outer-container  bg-blue-400">
+        <div className="outer-container">
           <p className="project-text">contact me</p>
           <form className="text-center">
             <div>
