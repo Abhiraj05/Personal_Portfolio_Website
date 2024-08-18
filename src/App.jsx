@@ -7,6 +7,7 @@ import twitter from "./assets/twitter.svg";
 import github from "./assets/githubedit.svg";
 import facebook from "./assets/facebook.svg";
 import instagram from "./assets/instagram.svg";
+import Contact from "./Contact";
 
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
@@ -100,30 +101,7 @@ function App() {
         </div>
         <div className="outer-container">
           <p className="project-text">contact me</p>
-          <form className="text-center">
-            <div>
-              <input
-                className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400"
-                type="text"
-                placeholder="name@gmail.com"
-              />
-            </div>
-            <div>
-              <input
-                className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
-                type="text"
-                placeholder="your name"
-              />
-            </div>
-            <div>
-              <input
-                className="w-64 h-20 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
-                type="text"
-                placeholder="your message"
-              />
-            </div>
-            <button className="submit-btn text-blue-400">submit</button>
-          </form>
+          <Contact></Contact>
         </div>
         <footer className="ftr  bg-blue-400">
           <p className="contact-text">connect me</p>
