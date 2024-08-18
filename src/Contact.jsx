@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import ReactDOM from "react-dom/client";
+// import App from "./App.jsx";
 import "./index.css";
 
 function Contact() {
@@ -34,29 +34,16 @@ function Contact() {
     <div>
       <form onSubmit={onSubmit} className="text-center">
         <div>
-          <input
-            className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400"
-            type="email"
-            placeholder="name@gmail.com"
-          required/>
+          <input  placeholder="your name" className="w-72 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" type="text" name="name" required />
         </div>
         <div>
-          <input
-            className="w-64 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
-            type="text"
-            placeholder="your name"
-         required />
+          <input  placeholder="name@gmail.com"  className="w-72 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400 text-sm" type="email" name="email" required />
         </div>
         <div>
-          <input
-            className="w-64 h-20 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400"
-            type="text"
-            placeholder="your message"
-         required />
+          <textarea placeholder="your message"  className="resize-none  w-72 h-20 mb-8 rounded-md pl-3 pt-2 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" name="message" required></textarea>
         </div>
-        <button className="submit-btn text-blue-400" type="submit">
-          submit
-        </button>
+
+        <button className="submit-btn text-blue-400" type="submit">Submit</button>
       </form>
       <span className="message">{result}</span>
     </div>
