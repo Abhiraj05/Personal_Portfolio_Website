@@ -43,7 +43,7 @@ function Contact() {
           <textarea placeholder="your message"  className="resize-none  w-72 h-24 mb-8 rounded-md pl-3 pt-2 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" name="message" required></textarea>
         </div>
 
-        <button className="submit-btn text-blue-400" type="submit">Submit</button>
+        <button className="submit-btn text-blue-400 hover:opacity-70" type="submit">Submit</button>
       </form>
       <span className="message">{result}</span>
     </div>
