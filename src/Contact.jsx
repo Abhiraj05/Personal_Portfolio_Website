@@ -34,13 +34,13 @@ function Contact() {
     <div>
       <form onSubmit={onSubmit} className="text-center">
         <div>
-          <input  placeholder="your name" className="w-72 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" type="text" name="name" required />
+          <input  placeholder="your name" className="w-72 h-11 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" type="text" name="name" required />
         </div>
         <div>
-          <input  placeholder="name@gmail.com"  className="w-72 h-10 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400 text-sm" type="email" name="email" required />
+          <input  placeholder="name@gmail.com"  className="w-72 h-11 mb-8 rounded-md pl-3 text-black font-mono placeholder:text-sm placeholder:font-mono placeholder:text-slate-400 text-sm" type="email" name="email" required />
         </div>
         <div>
-          <textarea placeholder="your message"  className="resize-none  w-72 h-20 mb-8 rounded-md pl-3 pt-2 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" name="message" required></textarea>
+          <textarea placeholder="your message"  className="resize-none  w-72 h-24 mb-8 rounded-md pl-3 pt-2 text-black font-mono placeholder:text-sm capitalize placeholder:font-mono  placeholder:text-slate-400 text-sm" name="message" required></textarea>
         </div>
 
         <button className="submit-btn text-blue-400" type="submit">Submit</button>
