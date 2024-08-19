@@ -2,236 +2,228 @@
 @import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-
 @media only screen and (max-width: 600px) {
-body {
-  margin: 0;
-  line-height: normal;
-  background-color: #1e1e1e;
-}
+  body {
+    margin: 0;
+    line-height: normal;
+    background-color: #1e1e1e;
+  }
 
-.nav-fixed{
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+  .nav-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  nav {
+    padding-top: 22px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 22px;
+    border-bottom: 0.5px solid aliceblue;
+    background-color: #1e1e1e;
+  }
 
-}
-nav {
-  padding-top: 22px;
-  margin-bottom: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
-  padding-bottom: 22px;
-  border-bottom: 0.5px solid aliceblue;
-  background-color: #1e1e1e;
-  
-}
+  #logo {
+    font-size: 25px;
+    width: 61px;
+    letter-spacing: 0.1em;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+  }
 
-#logo {
-  font-size: 25px;
-  width: 61px;
-  letter-spacing: 0.1em;
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
-}
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
 
-.logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-}
+  .linediv {
+    background-color: #69b0e3;
+    width: 27px;
+    height: 2px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 7px;
+  }
 
-.linediv {
-  background-color: #69b0e3;
-  width: 27px;
-  height: 2px;
-  box-sizing: border-box;
-  border-radius: 2px;
-  margin-bottom: 7px;
-}
+  .main-heading {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 31px;
+    font-weight: 900;
+    font-style: normal;
+    color: aliceblue;
+  }
 
-.main-heading {
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  display: inline-block;
-  font-family: "Ubuntu Mono", monospace;
-  text-align: left;
-  margin-top: 10px;
-  margin-left: 31px;
-  font-weight: 900;
-  font-style: normal;
-  color: aliceblue;
-}
+  .main-heading-2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    color: aliceblue;
+    margin-left: 31px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .main-heading-3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    color: aliceblue;
+    margin-left: 31px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .main-heading-4 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 31px;
+    font-weight: 700;
+    font-style: normal;
+  }
 
-.main-heading-2 {
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  display: inline-block;
-  font-family: "Ubuntu Mono", monospace;
-  text-align: left;
-  color: aliceblue;
-  margin-left: 31px;
-  font-weight: 900;
-  font-style: normal;
-}
-.main-heading-3 {
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  display: inline-block;
-  font-family: "Ubuntu Mono", monospace;
-  text-align: left;
-  color: aliceblue;
-  margin-left: 31px;
-  font-weight: 700;
-  font-style: normal;
-}
-.main-heading-4 {
-  font-size: 23px;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  display: inline-block;
-  font-family: "Ubuntu Mono", monospace;
-  text-align: left;
-  margin-top: 15px;
-  margin-left: 31px;
-  font-weight: 700;
-  font-style: normal;
-}
+  .resume-btn {
+    text-transform: uppercase;
+    color: aliceblue;
+    letter-spacing: 0.14em;
+    font-size: 15px;
+    width: 117px;
+    height: 44px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 6px;
+  }
 
-.resume-btn {
-  text-transform: uppercase;
-  color: aliceblue;
-  letter-spacing: 0.14em;
-  font-size: 15px;
-  width: 117px;
-  height: 44px;
-  margin-top: 60px;
-  text-align: center;
-  font-family: "Ubuntu Mono", monospace;
-  font-style: normal;
-  font-weight: 700;
-  border-radius: 6px;
-}
+  .submit-btn {
+    text-transform: uppercase;
+    background-color: aliceblue;
+    letter-spacing: 0.14em;
+    font-size: 13px;
+    width: 95px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 6px;
+  }
 
+  .outer-container {
+    margin-top: 70px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 20px;
+    padding-bottom: 58px;
+    background-color: #61a5fa;
+  }
 
+  .inner-container {
+    background-color: aliceblue;
+    margin-left: 17px;
+    margin-right: 17px;
+    padding-top: 21px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border-radius: 15px;
+  }
 
-.submit-btn {
-  text-transform: uppercase;
-  background-color: aliceblue;
-  letter-spacing: 0.14em;
-  font-size: 13px;
-  width: 95px;
-  height: 40px;
-  margin-top: 10px;
-  text-align: center;
-  font-family: "Ubuntu Mono", monospace;
-  font-style: normal;
-  font-weight: 700;
-  border-radius: 6px;
-}
+  .img-size {
+    width: 243px;
+    height: 133px;
+  }
 
-.outer-container {
-  margin-top: 70px;
-  margin-left: 24px;
-  margin-right: 24px;
-  border-radius: 20px;
-  padding-bottom: 58px;
-  background-color: #61A5FA;
-}
+  .project-text {
+    color: aliceblue;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 41px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
 
-.inner-container {
-  background-color: aliceblue;
-  margin-left: 17px;
-  margin-right: 17px;
-  padding-top: 21px;
-  padding-right: 17px;
-  padding-left: 17px;
-  border-radius: 15px;
-}
+  .card-text {
+    font-size: 12px;
+    font-family: "Ubuntu Mono", monospace;
+    text-transform: uppercase;
+    color: #828c8f;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+    padding-bottom: 17px;
+    margin-bottom: 41px;
+    letter-spacing: 0.14em;
+  }
 
-.img-size {
-  width: 243px;
-  height: 133px;
-}
+  .ftr {
+    margin-top: 84px;
+  }
 
-.project-text {
-  color: aliceblue;
-  font-size: 22px;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 41px;
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
+  .contact-text {
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 44px;
+    color: aliceblue;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
 
-.card-text {
-  font-size: 12px;
-  font-family: "Ubuntu Mono", monospace;
-  text-transform: uppercase;
-  color: #828c8f;
-  margin-top: 10px;
-  margin-left: 5px;
-  font-weight: 700;
-  padding-bottom: 17px;
-  margin-bottom: 41px;
-  letter-spacing: 0.14em;
-}
+  .social-logos {
+    margin-top: 12px;
+    margin-left: 47px;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+  }
 
-.ftr {
-  margin-top: 84px;
-}
+  .abhiraj-ftr {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+    margin-top: 90px;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 21px;
+    text-transform: capitalize;
+  }
 
-.contact-text {
-  font-size: 18px;
-  padding-top: 40px;
-  padding-left: 44px;
-  color: aliceblue;
-  font-family: "Strait", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.social-logos {
-  margin-top: 12px;
-  margin-left: 47px;
-  display: flex;
-  justify-content: left;
-  gap: 24px;
-}
-
-.abhiraj-ftr {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 8px;
-  margin-top: 90px;
-  color: aliceblue;
-  text-align: center;
-  padding-bottom: 21px;
-  text-transform: capitalize;
-}
-
-
-.message{
-  color: aliceblue;
- display: grid;
- justify-content: center;
-  font-size: 15px;
- font-weight: 400;
- font-family: "Ubuntu Mono", monospace;
- margin-top: 30px;
-
-}
-
+  .message {
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Ubuntu Mono", monospace;
+    margin-top: 30px;
+  }
 }
