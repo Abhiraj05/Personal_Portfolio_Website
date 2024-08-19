@@ -85,24 +85,23 @@ function App() {
         <div className="outer-container   bg-blue-400">
           <p className="project-text">my projects</p>
           <div className="inner-container ">
-            <a href="https://randomemailidgenerator.netlify.app/">
+          
               <img src={image1} alt="hello" />
-              <div className="card-text">
+              <div className="card-text font-mono">
                 <p>random email id</p>
                 <p>generator</p>
                 <p className="mt-2">tech stack : reactjs,css</p>
+                <button className=" pt-2 pb-2 pl-4 pr-4 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-gray-500 to-slate-300 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/Random-Email-id-Generator">source-code</a></button>
               </div>
-            </a>
           </div>
           <div className="inner-container ">
-            <a href="https://abhiraj05.github.io/simple_calculator/">
               <img src={image2} alt="hello" />
-              <div className="card-text">
+              <div className="card-text font-mono">
                 <p>simple</p>
                 <p>calculator</p>
                 <p className="mt-2">tech stack : html,css,js</p>
+                <button className=" pt-2 pb-2 pl-4 pr-4 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-gray-500 to-slate-300 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/simple_calculator">source-code</a></button>
               </div>
-            </a>
           </div>
         </div>
         <div className="outer-container">
