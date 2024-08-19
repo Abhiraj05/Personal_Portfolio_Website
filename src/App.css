@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+
+
+
+
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
@@ -227,3 +231,5 @@
     margin-top: 30px;
   }
 }
+
+
