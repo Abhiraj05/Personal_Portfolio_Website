@@ -62,7 +62,6 @@ function App() {
         <div>
           <p className="main-heading-3 ">
             <span className="text-blue-400">@</span>
-
             <span>bhiraj shilkar</span>
           </p>
         </div>
@@ -82,8 +81,9 @@ function App() {
        <a href="https://drive.google.com/file/d/1dVZsn3kDrwlZxylozqwA02y_Tdo_nBAI/view?usp=sharing">resume</a>
           </button>
         </div>
-        <div className="outer-container   bg-blue-400">
+        <div className="outer-container1   bg-blue-400">
           <p className="project-text">my projects</p>
+          <div className="container">
           <div className="inner-container ">
           
               <img src={image1} alt="hello" />
@@ -91,7 +91,7 @@ function App() {
                 <p>random email id</p>
                 <p>generator</p>
                 <p className="mt-2">tech stack : reactjs,css</p>
-                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/Random-Email-id-Generator">source-code</a></button>
+                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg uppercase font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/Random-Email-id-Generator">source-code</a></button>
               </div>
           </div>
           <div className="inner-container ">
@@ -100,11 +100,12 @@ function App() {
                 <p>simple</p>
                 <p>calculator</p>
                 <p className="mt-2">tech stack : html,css,js</p>
-                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/simple_calculator">source-code</a></button>
+                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg uppercase font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/simple_calculator">source-code</a></button>
               </div>
           </div>
+          </div>
         </div>
-        <div className="outer-container">
+        <div className="outer-container2">
           <p className="project-text">contact me</p>
           <Contact></Contact>
         </div>

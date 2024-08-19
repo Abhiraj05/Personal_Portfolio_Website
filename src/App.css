@@ -3,7 +3,247 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0;
+    line-height: normal;
+    background-color: #1e1e1e;
+  }
 
+  .nav-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  nav {
+    padding-top: 22px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1230px;
+    padding-bottom: 22px;
+    border-bottom: 0.5px solid aliceblue;
+    background-color: #1e1e1e;
+  }
+
+  #logo {
+    font-size: 25px;
+    width: 61px;
+    letter-spacing: 0.1em;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .linediv {
+    background-color: #69b0e3;
+    width: 27px;
+    height: 2px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 7px;
+  }
+
+  .main-heading {
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 79px;
+    padding-top: 40px;
+    font-weight: 900;
+    font-style: normal;
+    color: aliceblue;
+  }
+
+  .main-heading-2 {
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    color: aliceblue;
+    margin-left: 79px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .main-heading-3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    color: aliceblue;
+    margin-left: 79px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .main-heading-4 {
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    display: inline-block;
+    font-family: "Ubuntu Mono", monospace;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 79px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .resume-btn {
+    text-transform: uppercase;
+    color: aliceblue;
+    letter-spacing: 0.14em;
+    font-size: 16px;
+    width: 117px;
+    height: 44px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+
+  .submit-btn {
+    text-transform: uppercase;
+    background-color: aliceblue;
+    letter-spacing: 0.14em;
+    font-size: 15px;
+    width: 95px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Ubuntu Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+
+  .outer-container1 {
+    margin-top: 170px;
+    margin-left: 260px;
+    margin-right: 260px;
+    border-radius: 20px;
+    padding-bottom: 58px;
+    background-color: #61a5fa;
+   
+  }
+  .outer-container2 {
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 20px;
+    padding-bottom: 58px;
+    background-color: #61a5fa;
+  }
+  .inner-container {
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 21px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border-radius: 15px;
+  }
+
+  .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+
+  .img-size {
+    width: 24px;
+    height: 13px;
+  }
+
+  .project-text {
+    color: aliceblue;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 41px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  .card-text {
+    font-size: 16px;
+    font-family: "Ubuntu Mono", monospace;
+    text-transform: uppercase;
+    color: #828c8f;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+    padding-bottom: 17px;
+    margin-bottom: 41px;
+    letter-spacing: 0.14em;
+  }
+
+  .ftr {
+    margin-top: 84px;
+  }
+
+  .contact-text {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 79px;
+    color: aliceblue;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .social-logos {
+    margin-top: 12px;
+    margin-left: 79px;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+  }
+
+  .abhiraj-ftr {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    margin-top: 90px;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 21px;
+    text-transform: capitalize;
+  }
+
+  .message {
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Ubuntu Mono", monospace;
+    margin-top: 30px;
+  }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -137,7 +377,16 @@
     border-radius: 6px;
   }
 
-  .outer-container {
+  .outer-container1 {
+    margin-top: 70px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 20px;
+    padding-bottom: 58px;
+    background-color: #61a5fa;
+  }
+
+  .outer-container2 {
     margin-top: 70px;
     margin-left: 24px;
     margin-right: 24px;
