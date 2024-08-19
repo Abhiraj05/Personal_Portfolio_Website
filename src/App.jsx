@@ -91,7 +91,7 @@ function App() {
                 <p>random email id</p>
                 <p>generator</p>
                 <p className="mt-2">tech stack : reactjs,css</p>
-                <button className=" pt-2 pb-2 pl-4 pr-4 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-gray-500 to-slate-300 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/Random-Email-id-Generator">source-code</a></button>
+                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/Random-Email-id-Generator">source-code</a></button>
               </div>
           </div>
           <div className="inner-container ">
@@ -100,7 +100,7 @@ function App() {
                 <p>simple</p>
                 <p>calculator</p>
                 <p className="mt-2">tech stack : html,css,js</p>
-                <button className=" pt-2 pb-2 pl-4 pr-4 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-gray-500 to-slate-300 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/simple_calculator">source-code</a></button>
+                <button className=" pt-2 pb-2 pl-3 pr-3 rounded-lg capitalize font-mono text-xs bg-gradient-to-t from-blue-400 to-slate-300  shadow-blue-400 text-slate-100 mt-5 hover:opacity-60"><a href="https://github.com/Abhiraj05/simple_calculator">source-code</a></button>
               </div>
           </div>
         </div>
