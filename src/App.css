@@ -135,6 +135,14 @@
     border-radius: 6px;
   }
 
+
+  .para-text{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+
   .outer-container1 {
     margin-top: 170px;
     margin-left: 260px;
@@ -384,6 +392,7 @@
     border-radius: 20px;
     padding-bottom: 58px;
     background-color: #61a5fa;
+  
   }
 
   .outer-container2 {
@@ -393,6 +402,8 @@
     border-radius: 20px;
     padding-bottom: 58px;
     background-color: #61a5fa;
+
+
   }
 
   .inner-container {
@@ -436,6 +447,9 @@
 
   .ftr {
     margin-top: 84px;
+    background-color: #61a5fa;
+
+
   }
 
   .contact-text {
@@ -478,6 +492,35 @@
     font-weight: 400;
     font-family: "Ubuntu Mono", monospace;
     margin-top: 30px;
+  }
+
+  .para-text{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    font-family: "Strait", sans-serif;
+    border-radius: 25px;
+    border: 1px solid rgb(142, 143, 192);
+
+
+
+    
+  }
+  .abt-txt{
+    color: aliceblue;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 600;
+    margin-bottom: 6px;
   }
 }
 

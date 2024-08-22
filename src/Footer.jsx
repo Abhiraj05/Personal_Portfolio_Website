@@ -11,7 +11,7 @@ import App from "./App.jsx";
 
 function Footer(){
 return(
-<footer className="ftr  bg-blue-400">
+<footer className="ftr ">
 <p className="contact-text">connect me</p>
 <div className="social-logos">
   <a
