@@ -253,6 +253,36 @@
     font-family: "Ubuntu Mono", monospace;
     margin-top: 30px;
   }
+
+  .para-text{
+    text-align: center;
+    margin-top: 90px;
+    text-transform: capitalize;
+    margin-left: 260px;
+    margin-right: 260px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    font-family: "Strait", sans-serif;
+    border-radius: 25px;
+    border: 1px solid rgb(142, 143, 192);
+
+
+
+    
+  }
+  .abt-txt{
+    color: aliceblue;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
 }
 
 
