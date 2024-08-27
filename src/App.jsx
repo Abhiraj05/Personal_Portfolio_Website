@@ -100,10 +100,10 @@ function App() {
                 <p>generator</p>
                 <p className="mt-2 mb-3">tech stack : reactjs,css</p>
                 <div className="flex justify-centre gap-4">
-                  <a href="https://github.com/Abhiraj05/Random-Email-id-Generator">
+                  <a  className="hover:opacity-70" href="https://github.com/Abhiraj05/Random-Email-id-Generator">
                     <img src={bluegithub} alt="" />
                   </a>
-                  <a href="https://randomemailidgenerator.netlify.app/">
+                  <a  className="hover:opacity-70" href="https://randomemailidgenerator.netlify.app/">
                 <img src={visit} alt="" />
               </a> 
                 </div>
@@ -116,10 +116,10 @@ function App() {
                 <p>calculator</p>
                 <p className="mt-2 mb-3">tech stack : html,css,js</p>
              <div className="flex justify-centre gap-4">
-             <a href="https://github.com/Abhiraj05/simple_calculator">
+             <a  className="hover:opacity-70" href="https://github.com/Abhiraj05/simple_calculator">
                   <img src={bluegithub} alt="" />
               </a>
-              <a href="https://abhiraj05.github.io/simple_calculator/">
+              <a  className="hover:opacity-70" href="https://abhiraj05.github.io/simple_calculator/">
                 <img src={visit} alt="" />
               </a>
              </div>
