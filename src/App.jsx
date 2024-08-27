@@ -8,6 +8,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import About from "./About";
 import bluegithub from "./assets/blue-github.svg";
+import visit from "./assets/visit.svg";
+
 
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
@@ -97,9 +99,14 @@ function App() {
                 <p>random email id</p>
                 <p>generator</p>
                 <p className="mt-2 mb-3">tech stack : reactjs,css</p>
+                <div className="flex justify-centre gap-4">
                   <a href="https://github.com/Abhiraj05/Random-Email-id-Generator">
                     <img src={bluegithub} alt="" />
                   </a>
+                  <a href="https://randomemailidgenerator.netlify.app/">
+                <img src={visit} alt="" />
+              </a> 
+                </div>
               </div>
             </div>
             <div className="inner-container ">
@@ -108,10 +115,15 @@ function App() {
                 <p>simple</p>
                 <p>calculator</p>
                 <p className="mt-2 mb-3">tech stack : html,css,js</p>
-             
-                  <a href="https://github.com/Abhiraj05/simple_calculator">
+             <div className="flex justify-centre gap-4">
+             <a href="https://github.com/Abhiraj05/simple_calculator">
                   <img src={bluegithub} alt="" />
-                  </a>
+              </a>
+              <a href="https://abhiraj05.github.io/simple_calculator/">
+                <img src={visit} alt="" />
+              </a>
+             </div>
+                 
              
               </div>
             </div>
