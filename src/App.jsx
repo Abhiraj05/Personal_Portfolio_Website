@@ -7,7 +7,7 @@ import github from "./assets/githubedit.svg";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import About from "./About";
-
+import bluegithub from "./assets/blue-github.svg";
 
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React from "react";
