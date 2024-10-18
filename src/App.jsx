@@ -82,7 +82,7 @@ function App() {
         </div>
         <div className="text-center">
           <button className="resume-btn bg-gradient-to-t from-blue-500 to-slate-300 shadow-blue-400 hover:opacity-70 ">
-            <a href="https://drive.google.com/file/d/1dVZsn3kDrwlZxylozqwA02y_Tdo_nBAI/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1dZlvloZvp9hodnUdEl9GWtgKejS_RWuO/view?usp=sharing">
               resume
             </a>
           </button>
