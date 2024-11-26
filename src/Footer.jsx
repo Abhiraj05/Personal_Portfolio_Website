@@ -15,7 +15,7 @@ return(
 <p className="contact-text">connect me</p>
 <div className="social-logos">
   <a
-    href="https:/www.facebook.com/abhirajshilkar"
+    href="https://www.facebook.com/abhiraj.shilkar.1?mibextid=ZbWKwL"
     className="hover:opacity-70"
   >
     <img src={facebook} alt="1" />
