@@ -17,7 +17,7 @@ import Fade from "react-reveal/Fade";
 
 function App() {
   const [text] = useTypewriter({
-    words: ["fullstack developer"],
+    words: ["backend developer"],
     loop: {},
     typeSpeed: 130,
     deleteSpeed: 90,
