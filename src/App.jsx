@@ -41,7 +41,7 @@ function App() {
                 <img src={linkdin} alt="1" />
               </a>
               <a
-                href="https://github.com/Abhiraj05"
+                href="https://github.com/Abhiraj05?tab=repositories"
                 className="hover:opacity-70"
               >
                 <img src={github} alt="2" />
