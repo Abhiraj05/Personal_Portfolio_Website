@@ -35,7 +35,7 @@ function App() {
             </div>
             <div className="logos">
               <a
-                href="https:/www.linkedin.com/in/abhiraj-shilkar-408126217"
+                href="https://www.linkedin.com/in/abhiraj-shilkar-408126217?trk=contact-info"
                 className="hover:opacity-70"
               >
                 <img src={linkdin} alt="1" />
