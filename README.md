@@ -23,9 +23,9 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 Follow these steps to run the project locally:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Abhiraj05/portfolio.git
-   ```
+```bash
+git clone https://github.com/Abhiraj05/portfolio.git
+```
 2. Navigate to the project folder
 
 After cloning, change your directory to the project folder:
