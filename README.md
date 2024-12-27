@@ -40,7 +40,7 @@ npm install
 ```bash
 npm start
 ```
-Once you run bash```npm start``` on your local machine, you can open this URL in your browser to view the portfolio.
+Once you run ```npm start``` on your local machine, you can open this URL in your browser to view the portfolio.
 ```bash
 http://localhost:3000/
 ```
